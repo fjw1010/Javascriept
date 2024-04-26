@@ -18,10 +18,14 @@
         console.log(i)
         console.log(arr[i])
     }
+
+    예시 ) 0부터 12까지의 수 중에서 2의 배수만 console.log로 출력하시오
+        for (let i = 0; i < 13; i++) {
+            if (i >= 2) {
+                if (i % 2 === 0) {
+                    console.log(i + "는 2의 배수입니다.")
+                }
+            }
+        }
 */
 
-// 예시 ) 0부터 10까지의 수 중에서 2의 배수만 console.log로 출력하시오
-let num = 10
-for (let i = 0; i < 10 && num % 2; i++) {
-    console.log(i)
-}
