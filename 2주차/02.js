@@ -10,7 +10,7 @@
         console.log("2", value2);
 
         let arr = ["value1", "value12", "value3"];
-        let [a, b, c, d = 4=(초기값을 줌)] = arr;
+        let [a, b, c, d === 4=(초기값을 줌)] = arr;
 
         console.log(a, b, c, d); 
     (2) 객체인 경우
@@ -20,8 +20,8 @@
         };
             // 구조분해 할당 위 키의 값을 아래처럼 가져올 수 있음 key=name: "밸류의 값"
             let { name, age } = {
-            name: "nbc",
-            age: 30,
+                name: "nbc",
+                age: 30,
             };
             console.log(name, age)를 찍으면 name의 밸류의 값(string), age의 밸류의 값(number)만 출력 됨
 
